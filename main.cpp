@@ -2,10 +2,10 @@
 
 
 int main(){
-    int decimal = 15;
-    int octal = 017;
-    int hexadecimal = 0x0f;
-    int binario = 0b00001111;
+    int decimal =15; //inicialização assignment
+    int octal = (017); // inicialização funcional
+    int hexadecimal = {0x0f}; //inicialização uniforme
+    int binario = {0b00001111};
 
     std::cout << "n1 = " << decimal << std::endl;
     std::cout << "n2 = " << octal << std::endl;
